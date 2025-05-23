@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
 import './footer.css';
+
 function Footer() {
-    const { cart } = useContext(CartContext);
     return (
         <section id='contacts' className='footer'>
             <h3>Контакты</h3>
@@ -16,4 +15,5 @@ function Footer() {
         </section>
     );
 }
+
 export default Footer;
