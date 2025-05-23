@@ -1,0 +1,29 @@
+.footer {
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #333;
+}
+ .footer-ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer h3 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.footer-ul li {
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+}
+.footer p {
+    font-size: 18px;
+}

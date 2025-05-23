@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #caa2b3;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(340deg, #ffecd5, #ff5e81b6), no-repeat;
+  background-attachment: fixed;
+  animation: gradient 10s ease infinite;
+  height: 100%;
+
+}
+h1, h2, h3 {
+  font-weight: 600;
+  color: #f2e9d0;
+}
+
+button {
+  font-weight: 500;
+  font-size: 14px;
+  border: solid rgb(255, 255, 255) 2px;
+  border-radius: 25px;
+  padding:  4px 34px;
+  font-size: 18px;
+  color: #333;
+  background-color: #ffffff;
+}
+button :hover {
+  color: #ed719e;
+  transition: 2s;
+}
+html {
+  scroll-behavior: smooth;
+
+
+}
+.site-header {
+  max-width: 1290px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;  
+
+}
+
+.site-header main {
+  display: flex;
+  gap: 40px;
+
+}
+
+.site-header nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.site-header h1 {
+  font-size: 55px;
+  color: #fc708e;
+  font-weight: 700;
+  letter-spacing: -16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -12px;
+}
+.site-header nav a:hover {
+  color: #ff5479;
+  transition: 0.8s;
+}
+
+.header-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-btn p {
+  padding: 0px 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff5e81b6;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: .5s;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-btn p:hover {
+  background: transparent;
+    color: #ff5e81b6;
+    background-color: white;
+    transition: 0.8s;
+    border: 2px solid #ff5e81b6;
+    border-radius: 30px;
+    transition-timing-function: ease-in-out;
+}
+
+.cart-count {
+  background: #ff5e81b6;
+  color: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
