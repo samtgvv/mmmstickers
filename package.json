@@ -1,7 +1,7 @@
 {
   "name": "stickers",
   "version": "0.1.0",
-  "homepage": "https://samtgluv.github.io/stickers-shop",
+  "homepage": "https://your-site-name.netlify.app/stickers-shop",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
