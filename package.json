@@ -1,7 +1,7 @@
 {
   "name": "stickers",
   "version": "0.1.0",
-  "homepage": "https://your-site-name.netlify.app/stickers-shop",
+  "homepage": "https://mmmstickers.netlify.app",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
