@@ -20,7 +20,7 @@ function Home() {
         </section>
 
         <section className='home-banner'>
-          <img src='https://nokidsstickers.ru/wp-content/uploads/2025/03/banner-fkttory.png'></img>
+          <img src='https://nokidsstickers.ru/wp-content/uploads/2025/03/banner-fkttory.png' alt=""></img>
           <main className='about' id='about'>
             <h3>О компании</h3>
             <p>Мы – магазин стикеров, где творчество встречается с самовыражением! Здесь вы найдете уникальные дизайны, созданные с любовью, чтобы выразить вашу индивидуальность!</p>
